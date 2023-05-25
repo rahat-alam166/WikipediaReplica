@@ -1,0 +1,74 @@
+div 
+{
+    font-family: sans-serif;
+}
+body
+{
+    margin-left: 300px;
+    margin-right: 300px;
+}
+table
+{
+    float: right;
+    /* background-color: brown; */
+    background-color: #f8f9fa;
+    width: 250px;
+    height: 100px;
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    border-collapse: separate;
+    font-size: 88%;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    clear: right;
+}
+table caption
+{
+    font-size: 125%;
+    font-weight: bold;
+    text-align: center;
+}
+table th
+{
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+    /* line-height: 1.3em;
+    padding-right: 1em; */
+}
+table th td
+{
+    vertical-align: top;
+    text-align: left;
+    
+}
+.t-header
+{
+    text-align: center;
+    background: #eee;
+}
+
+#image img
+{
+    align-items: center;
+    justify-content: center;
+    max-width: 250px;
+    max-height: 250px;
+}
+#image 
+{
+    text-align: center;
+}
+
+.headline
+{
+    font-weight: normal;
+    margin-bottom: 0.25em;
+    padding: 0;
+    font-family: 'Linux Libertine','Georgia','Times',serif;
+    line-height: 1.375;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid #a2a9b1;
+}
